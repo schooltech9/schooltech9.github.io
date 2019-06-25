@@ -1,4 +1,14 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400");
+@import url('https://fonts.googleapis.com/css?family=Cabin:400,500,700|Montserrat:400,500,700');
+@import 'bootstrap.min.css';
+@import 'animate.css';
+@import 'magnific-popup.css';
+@import 'owl.carousel.min.css';
+@import 'slick.css';
+@import 'font-awesome.min.css';
+@import 'themify-icons.css';
+@import 'ionicons.min.css';
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
@@ -1391,3 +1401,49 @@ select {
         border-bottom: 1px solid #6C63FF;
         transform: none;
         transition: none; } }
+
+
+        /* --------------------------
+:: 8.0 Screenshots Area CSS
+-------------------------- */
+
+.app_screenshots_slides {
+  padding: 0 6%;
+}
+
+.app_screenshots_slides .single-shot {
+  opacity: 0.7;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
+  -webkit-transform: scale(0.85);
+  -ms-transform: scale(0.85);
+  transform: scale(0.85)
+}
+
+.app_screenshots_slides .center .single-shot {
+  opacity: 1;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1)
+}
+
+.app-screenshots-area .owl-dot {
+  height: 11px;
+  width: 11px;
+  border: 2px solid #a49fba;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 6px;
+  margin-top: 50px;
+}
+
+.app-screenshots-area .owl-dot.active {
+  background-color: #fb397d;
+  border: transparent;
+}
+
+.app-screenshots-area .owl-dots {
+  height: 100%;
+  width: 100%;
+  text-align: center;
+}
